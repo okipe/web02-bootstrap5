@@ -7,20 +7,24 @@
     <title>Portfolio N° 4</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- fixed-top convert navbar as a sticky item on the screen-->
         <div class="container">
-             <!--Removing fluid to container allow us to have a navbar with good margins-->
-            <a class="navbar-brand" href="#">Navbar</a>
+             <!-- Removing fluid to container allow us to have a navbar with good margins -->
+            <a class="navbar-brand" href="#"><img src="/img/logo.png" alt="LMZ logo"></a>
+            <!-- It add a picture as a logo navbar -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -31,15 +35,174 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <header class="page-header gradient">
+        <div class="container pt-3">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-5">
+                    <h2>Build website using MDB</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis nihil reprehenderit aliquam iste ab laboriosam! Dolore perspiciatis reiciendis minus. Quisquam, eos. Dolorum beatae magnam voluptas.</p>
+                    <button type="button" class="btn btn-outline-success btn-lg">Read more</button>
+                    <button type="button" class="btn btn-outline-warning btn-lg">Play video</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="/img/email_campaign_monochromatic.svg" alt="Header image">
+                </div>
+            </div>
+        </div>
 
 
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,74.7C384,96,480,160,576,181.3C672,203,768,181,864,154.7C960,128,1056,96,1152,90.7C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </header>
+    
+    <section class="companies">
+        <div class="container text-center">
+            <div class="row g-5">
+                <div class="col-md-2"><img src="/img/companies/1.png" alt="Airbnb" class="img-fluid"></div>
+                <div class="col-md-2"><img src="/img/companies/2.png" alt="Paypal" class="img-fluid"></div>
+                <div class="col-md-2"><img src="/img/companies/3.png" alt="Amazon" class="img-fluid"></div>
+                <div class="col-md-2"><img src="/img/companies/4.png" alt="Slack" class="img-fluid"></div>
+                <div class="col-md-2"><img src="/img/companies/5.png" alt="Microsoft" class="img-fluid"></div>
+                <div class="col-md-2"><img src="/img/companies/6.png" alt="Slack" class="img-fluid"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature gradient">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,149.3C384,149,480,171,576,192C672,213,768,235,864,234.7C960,235,1056,213,1152,197.3C1248,181,1344,171,1392,165.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/img/seo_monochromatic.svg" alt="SEO">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="my-3">Introducing MDB</h1>
+                    <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit, sit distinctio, delectus cum iste aliquam reiciendis mollitia temporibus modi quisquam rerum nostrum harum!</p>
+                    <ul>
+                        <li>Best for Creative Agency</li>
+                        <li>Built with Latest Technology</li>
+                        <li>Super Responsive</li>
+                        <li>Creative Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,208C384,224,480,256,576,250.7C672,245,768,203,864,186.7C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+    <section class="icons">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="icon gradient mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                            <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+                        </svg>
+                    </div>
+                    <h3>Built for developers</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consectetur, distinctio provident accusantium ea inventore soluta</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="icon gradient mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-inboxes" viewBox="0 0 16 16">
+                            <path d="M4.98 1a.5.5 0 0 0-.39.188L1.54 5H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0A.5.5 0 0 1 10 5h4.46l-3.05-3.812A.5.5 0 0 0 11.02 1H4.98zm9.954 5H10.45a2.5 2.5 0 0 1-4.9 0H1.066l.32 2.562A.5.5 0 0 0 1.884 9h12.234a.5.5 0 0 0 .496-.438L14.933 6zM3.809.563A1.5 1.5 0 0 1 4.981 0h6.038a1.5 1.5 0 0 1 1.172.563l3.7 4.625a.5.5 0 0 1 .105.374l-.39 3.124A1.5 1.5 0 0 1 14.117 10H1.883A1.5 1.5 0 0 1 .394 8.686l-.39-3.124a.5.5 0 0 1 .106-.374L3.81.563zM.125 11.17A.5.5 0 0 1 .5 11H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0 .5.5 0 0 1 .5-.5h5.5a.5.5 0 0 1 .496.562l-.39 3.124A1.5 1.5 0 0 1 14.117 16H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .121-.393zm.941.83.32 2.562a.5.5 0 0 0 .497.438h12.234a.5.5 0 0 0 .496-.438l.32-2.562H10.45a2.5 2.5 0 0 1-4.9 0H1.066z"/>
+                        </svg>
+                    </div>
+                    <h3>Modern responsive design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora veritatis amet debitis adipisci consequuntur alias, doloribus accusamus. Veniam, expedita enim!</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon gradient mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-earmark-ruled" viewBox="0 0 16 16">
+                            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V9H3V2a1 1 0 0 1 1-1h5.5v2zM3 12v-2h2v2H3zm0 1h2v2H4a1 1 0 0 1-1-1v-1zm3 2v-2h7v1a1 1 0 0 1-1 1H6zm7-3H6v-2h7v2z"/>
+                          </svg>
+                    </div>
+                    <h3>Complete documentation</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nemo doloribus molestiae, voluptas fugiat accusantium quae possimus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,224C960,213,1200,171,1320,149.3L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h1>Check our latest awesome creative work</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quo fuga, quasi quod quos maxime natus labore. Earum?</p>
+                </div>
+            </div>
+            <div class="row my-3 g-3">
+                <div class="col-md-4"><img src="/img/c1.jpg" alt="laptop 1" class="img-fluid"></div>
+                <div class="col-md-4"><img src="/img/c2.jpg" alt="laptop 2" class="img-fluid"></div>
+                <div class="col-md-4"><img src="/img/c3.jpg" alt="laptop 3" class="img-fluid"></div>
+            </div>
+            <div class="row mt-5 justify-content-end">
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-outline-secondary">See all works</button>
+                </div> 
+            </div>
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120"><path fill="#f5f5f5" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,224C960,213,1200,171,1320,149.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg> -->
+    </section>
+
+    <section class="services gradient">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 260"><path fill="#f5f5f5" fill-opacity="1" d="M0,128L60,122.7C120,117,240,107,360,128C480,149,600,203,720,208C840,213,960,171,1080,138.7C1200,107,1320,85,1380,74.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-5">
+                    <button type="button" class="btn btn-outline-warning">Coding</button>
+                    <h2>We code</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sint voluptas aspernatur quo adipisci nihil repellendus nisi distinctio quidem natus?</p>
+                </div>
+                <div class="col-md-5"><img src="/img/coding_.svg" alt="Man with laptop"></div>
+                <div class="col-md-5"><img src="/img/marketing.svg" alt="Computer with graphics"></div>
+                <div class="col-md-5"><button type="button" class="btn btn-outline-success">Coding</button>
+                    <h2>We promote</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt enim labore molestiae placeat voluptatibus autem doloribus deleniti itaque quae hic.</p></div>
+                <div class="col-md-5">
+                    <button type="button" class="btn btn-outline-light">We sell</button>
+                    <h2>We sell</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur maxime hic ipsam voluptas labore dignissimos nobis quidem exercitationem?</p>
+                </div>
+                <div class="col-md-5"><img src="/img/revenue_.svg" alt="Tree of money"></div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280"><path fill="#fff" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,224C960,213,1200,171,1320,149.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>Contact us!</h1>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-outline-secondary">Send</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/handshake.svg" alt="Handshake">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="gradient">
+        <div class="container-fluid text-center">
+            <span>Made with ❤️ by <a href="https://oscarroman.pe">oscarroman.pe</a></span>
+        </div>
+    </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
